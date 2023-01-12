@@ -5,8 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Landing Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./app.css" />
   </head>
   <body>
-    <div id="container"></div>
+    <div id="container">
+      <header>
+        <div id="header__logo">
+          <img src="./img/logo 1.svg" alt="Company Logo" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Content">Content</a></li>
+            <div id="nav__img">
+              <img src="./img/moon.svg" alt="Half Moon Image" />
+            </div>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="container__home">
+        <div id="home__bac__1"></div>
+        <div id="home__bac__2">
+          <div id="bac__img__1">
+            <img src="./img/+_icon.svg" alt="Multiplication Icon" />
+          </div>
+          <div id="bac__img__2">
+            <img
+              src="./img/border_radius.svg"
+              alt="Rounded border_radius Icon"
+            />
+            <hr />
+          </div>
+        </div>
+        <div id="home__content">
+          <figure>
+            <img src="./img/alireza.svg" alt="Alireza Kavousy Image" />
+          </figure>
+          <div id="home__content__cont">
+            <h1>
+              I'm
+              <span id="home__content__name">Alireza</span>
+              Kavousy nezjad
+            </h1>
+            <p>
+              Draft is a revolutionary mobile app built to help you manage your
+              business easily and save your money.
+            </p>
+          </div>
+          <div id="btn">
+            <button type="button" id="btn__btn__1">See Projects</button>
+            <button type="button" id="btn__btn__2">Download Resume</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="org__logo">
+        <div id="org__dept">
+          <div class="org__dept__logo">
+            <img src="./img/ps_logo.svg" alt="PS Department Logo" />
+            <h3>Photoshop</h3>
+          </div>
+          <div class="org__dept__logo">
+            <img src="./img/ae_logo.svg" alt="AE Department Logo" />
+            <h3>After Effects</h3>
+          </div>
+          <div class="org__dept__logo">
+            <img src="./img/ai_logo.svg" alt="AI Department Logo" />
+            <h3>Illustrator</h3>
+          </div>
+          <div class="org__dept__logo">
+            <img src="./img/figma_logo.svg" alt="Figma Department Logo" />
+            <h3>Figma</h3>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
